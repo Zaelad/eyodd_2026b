@@ -13,7 +13,8 @@ def random_function(students):
 
     print(new_list) # O(1)
     return total # O(1)
-print(f"tamaño de la lista:{(student_list_01)}")
+
+print(f"tamaño de la lista:{len(student_list_01)}")
 print(random_function(student_list_01)) 
 print("")
 
